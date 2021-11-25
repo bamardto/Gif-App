@@ -3,15 +3,27 @@
 }
 
 body {
-  padding: 5% 5%;
+  padding: 2% 5%;
   background-color: #112031;
   color: #D4ECDD;
+  
+}
+.cont-img{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 h1{
   text-align: center;
   color: #D4ECDD;
+  font-family: 'Play', sans-serif;
 
+}
+.logo{
+  top: 20px;
+  width: 150px;
 }
 h3{
   font-size: 25px;

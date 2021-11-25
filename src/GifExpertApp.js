@@ -8,6 +8,9 @@ export const GifExpertApp = () => {
 
     return (
         <>
+            <div className="cont-img">
+                <img className="logo" src="./logoPageTransparent.png" alt="" />
+            </div>
             <h1>Busca tu Gif</h1>
             <AddCategory setCategories={ setCategories } />
 
