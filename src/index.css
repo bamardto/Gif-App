@@ -3,7 +3,7 @@
 }
 
 body {
-  padding: 30px 60px;
+  padding: 5% 5%;
   background-color: #112031;
   color: #D4ECDD;
 }
@@ -34,7 +34,7 @@ input {
   color: #D4ECDD;
   font-size: 1rem;
   background: #152D35;
-  width: 70%;
+  width: 80%;
   padding: 5px;
   border: 1px solid #345B63;
 }
