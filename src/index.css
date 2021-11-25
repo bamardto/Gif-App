@@ -3,16 +3,20 @@
 }
 
 body {
-  padding: 30px 50px;
+  padding: 30px 60px;
   background-color: #112031;
   color: #D4ECDD;
 }
 
 h1{
   text-align: center;
+  color: #D4ECDD;
+
 }
 h3{
   font-size: 25px;
+  margin-left: 5%;
+  margin-top: 60px;
 }
 .container-gif{
   margin: 50px 0;
@@ -21,12 +25,18 @@ hr{
   border: none;
   border-bottom: 1px solid #345B63;
 }
+form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 input {
-  color: #112031;
+  color: #D4ECDD;
   font-size: 1rem;
-  width: 100%;
+  background: #152D35;
+  width: 70%;
   padding: 5px;
-  border: 0;
+  border: 1px solid #345B63;
 }
 
 .card-grid {
