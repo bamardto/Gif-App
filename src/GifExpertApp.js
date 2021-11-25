@@ -8,11 +8,10 @@ export const GifExpertApp = () => {
 
     return (
         <>
-            <h2>GifExpertApp</h2>
+            <h1>Busca tu Gif</h1>
             <AddCategory setCategories={ setCategories } />
-            <hr />
 
-            <ol>
+            <ol className="ol">
                 {
                     categories.map( category  => (
                         <GifGrid 
