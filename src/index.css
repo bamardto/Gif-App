@@ -40,11 +40,14 @@ ol{
 }
 
 .card {
+  display: flex;
   align-content: center;
+  flex-direction: column;
   border: 1px solid #345B63;
   border-radius: 6px;
   background-color: #152D35;
   margin: 10px;
+  justify-content: center;
   overflow: hidden;
   width: 300px;
 }
